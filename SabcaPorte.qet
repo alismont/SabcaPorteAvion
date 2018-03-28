@@ -1,0 +1,462 @@
+<project title="" folioSheetQuantity="0" version="0.70">
+    <properties/>
+    <newdiagrams>
+        <border rowsize="80" displaycols="true" rows="8" cols="17" displayrows="true" colsize="60"/>
+        <inset title="" date="null" author="" displayAt="bottom" indexrev="" filename="" folio="%id/%total" machine="" locmach="" version="" auto_page_num=""/>
+        <conductors numsize="7" onetextperfolio="0" bicolor="false" num="_" color2="#000000" horizrotatetext="0" dash-size="1" vertirotatetext="270" type="multi" displaytext="1" formula="" condsize="1" function="" tension-protocol=""/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref powerprefix="" switchprefix="" snapto="label" type="protection" master_label="%f-%l%c" slave_label="(%f-%l%c)" delayprefix="" displayhas="cross" showpowerctc="false" offset="0"/>
+            <xref powerprefix="" switchprefix="" snapto="label" type="commutator" master_label="%f-%l%c" slave_label="(%f-%l%c)" delayprefix="" displayhas="cross" showpowerctc="false" offset="0"/>
+            <xref powerprefix="" switchprefix="" snapto="label" type="coil" master_label="%f-%l%c" slave_label="(%f-%l%c)" delayprefix="" displayhas="cross" showpowerctc="false" offset="0"/>
+        </xrefs>
+        <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
+        <folio_autonums/>
+        <element_autonums current_autonum="" freeze_new_elements="false"/>
+    </newdiagrams>
+    <diagram filename="" displaycols="true" order="1" title="Sabca arrêt urgence" rows="8" date="null" author="Leceux" cols="17" displayrows="true" folio="%id/%total" colsize="60" rowsize="80" locmach="" indexrev="" height="660" auto_page_num="Créer un Folio Numérotation Auto" freezeNewConductor="false" displayAt="bottom" version="0.70-dev+svn5280" freezeNewElement="false" machine="">
+        <defaultconductor numsize="7" onetextperfolio="0" bicolor="false" num="_" color2="#000000" horizrotatetext="0" dash-size="2" vertirotatetext="270" type="multi" displaytext="1" formula="" condsize="1" function="" tension-protocol=""/>
+        <elements>
+            <element freezeLabel="false" orientation="0" uuid="{26f399a7-ac6c-45b5-b745-96ee4f072e81}" type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="940" prefix="" y="60">
+                <terminals>
+                    <terminal name="_" number="_" orientation="3" nameHidden="0" id="0" x="-9" y="0"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" uuid="{b8e2cab1-9ce9-4b65-8039-b94a4a3bcd11}" rotation="0" x="6" frame="false" y="-13" text_width="-1" font_size="9">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" orientation="0" uuid="{539692e4-c900-4100-8569-ec0a2ebd2e6a}" type="embed://import/10_electric/20_manufacturers_articles/pilz/09_safety_modules/pilz.elmt" x="360" prefix="" y="330">
+                <terminals>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="1" x="210" y="90"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="2" x="280" y="-30"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="3" x="280" y="90.3333"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="4" x="320" y="-30"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="5" x="320" y="91"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="6" x="-50" y="-30"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="7" x="-50" y="90"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="8" x="150" y="90"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="9" x="150" y="-30"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="10" x="230" y="-30"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="11" x="20" y="-30"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="12" x="90" y="-30"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" uuid="{0aa25e7a-c779-4634-a417-7b37fc2f1865}" rotation="0" x="350" frame="false" y="-33" text_width="-1" font_size="9">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" orientation="0" uuid="{72a1f2f3-5ca8-4b08-b64a-7d339827443e}" type="embed://import/10_electric/10_allpole/200_fuses&amp;protective_gears/10_fuses/sectionneur_3_fusibles+neutre.elmt" x="120" prefix="F" y="490">
+                <terminals>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="13" x="-30" y="-16"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="14" x="-30" y="16"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="15" x="10" y="16"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="16" x="10" y="-16"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="17" x="-10" y="-16"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="18" x="-10" y="16"/>
+                    <terminal name="_" number="_" orientation="2" nameHidden="0" id="19" x="30" y="16"/>
+                    <terminal name="_" number="_" orientation="0" nameHidden="0" id="20" x="30" y="-16"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="formula" show="1"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_from="ElementInfo" uuid="{ff7106d0-a09e-4c4d-ad4f-5ba815d6aacc}" rotation="0" x="50" frame="false" y="-12.5" text_width="-1" font_size="9">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="fr">Éléments importés</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="en">Imported elements</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="pl">Elementy importowane</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+            </names>
+            <category name="10_electric">
+                <names>
+                    <name lang="nl">Elektrotechniek</name>
+                    <name lang="fr">Electrique</name>
+                    <name lang="en">Electric</name>
+                    <name lang="it">Elettrica</name>
+                    <name lang="de">Elektrik</name>
+                    <name lang="cs">Elektrotechnika</name>
+                    <name lang="pl">Elektrotechnika</name>
+                    <name lang="ru">Электротехника</name>
+                    <name lang="da">Elektrisk</name>
+                    <name lang="el">Ηλεκτρικά</name>
+                    <name lang="es">Eléctrica</name>
+                </names>
+                <category name="10_allpole">
+                    <names>
+                        <name lang="fr">Multifilaire</name>
+                        <name lang="nl">Veel polig</name>
+                        <name lang="en">All-pole</name>
+                        <name lang="it">Multifilare</name>
+                        <name lang="cs">Vícežilový</name>
+                        <name lang="de">Allpolig</name>
+                        <name lang="pl">Schematy wieloliniowe</name>
+                        <name lang="ru">Многополюсные</name>
+                        <name lang="da">Flere ledere</name>
+                        <name lang="el">Πολυγραμμικό</name>
+                        <name lang="es">Multifilar</name>
+                    </names>
+                    <category name="200_fuses&amp;protective_gears">
+                        <names>
+                            <name lang="fr">Fusibles et protections</name>
+                            <name lang="nl">Zekeringen en beveiligingen</name>
+                            <name lang="en">Fuses and protective gears</name>
+                            <name lang="it">Fusibili e protezioni</name>
+                            <name lang="de">Sicherungen und Schutzeinrichtungen</name>
+                            <name lang="cs">Tavné pojistky a ochrany</name>
+                            <name lang="pl">Łączniki i zabezpieczenia</name>
+                            <name lang="ru">Предохранители и элементы защиты</name>
+                            <name lang="es">Fusibles y protecciones</name>
+                            <name lang="el">Ασφάλειες και εξαρτήματα προστασίας</name>
+                        </names>
+                        <category name="10_fuses">
+                            <names>
+                                <name lang="fr">Fusibles</name>
+                                <name lang="nl">Zekeringscheiders</name>
+                                <name lang="pt">Porta fusíveis</name>
+                                <name lang="en">Fuses</name>
+                                <name lang="it">Portafusibili</name>
+                                <name lang="de">Schmelzsicherungen</name>
+                                <name lang="cs">Držák pojistek</name>
+                                <name lang="ar">حوامل-مصهرات</name>
+                                <name lang="pl">Odłączniki bezpiecznikowe</name>
+                                <name lang="ru">Выключатели-предохранители</name>
+                                <name lang="es">Portafusibles</name>
+                                <name lang="el">Ασφάλειες</name>
+                            </names>
+                            <element name="sectionneur_3_fusibles+neutre.elmt">
+                                <definition hotspot_x="51" hotspot_y="24" orientation="dyyy" type="element" width="90" link_type="master" height="50" version="0.4">
+                                    <uuid uuid="{E97E9426-3D2A-4762-9528-405BEDC34015}"/>
+                                    <names>
+                                        <name lang="ar">مفتاح عزل رباعي بثلاث مصهرات</name>
+                                        <name lang="de">Sicherungstrenner 3-polig + N</name>
+                                        <name lang="el">Ασφαλειοδιακόπτης 3P + N</name>
+                                        <name lang="en">switchfuses</name>
+                                        <name lang="es">Seccionador 3P+N</name>
+                                        <name lang="it">Sezionatore con fusibile 3P+N</name>
+                                        <name lang="fr">Sectionneur porte fusible tri + N</name>
+                                        <name lang="pl">Odłącznik bezpiecznikowy</name>
+                                        <name lang="nl">Zekeringscheider 3</name>
+                                        <name lang="cs">Tavný odpojovač</name>
+                                    </names>
+                                    <kindInformations>
+                                        <kindInformation name="type" show="1">protection</kindInformation>
+                                    </kindInformations>
+                                    <informations>Author: The QElectroTech team&#xd;
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <polygon antialias="true" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="30" y3="20" x1="25" x2="30" closed="false" y1="-10"/>
+                                        <polygon antialias="true" y2="5.49" x4="28.19" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="30.69" y3="4.51" x1="24.31" x2="26.81" y1="-4.51" y4="-5.49"/>
+                                        <line antialias="true" end2="circle" y2="10" end1="none" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" x1="-45" x2="-40" y1="-10"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="28" x2="32" y1="-10"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="30" x2="30" y1="-20"/>
+                                        <polygon antialias="true" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-10" y3="20" x1="-15" x2="-10" closed="false" y1="-10"/>
+                                        <input size="9" x="50" tagg="label" y="0.5" text="_"/>
+                                        <polygon antialias="true" y2="5.49" x4="-11.81" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-9.31" y3="4.51" x1="-15.69" x2="-13.19" y1="-4.51" y4="-5.49"/>
+                                        <polygon antialias="true" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-30" y3="20" x1="-35" x2="-30" closed="false" y1="-10"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-10" x2="-10" y1="-20"/>
+                                        <polygon antialias="true" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10" y3="20" x1="5" x2="10" closed="false" y1="-10"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-8" x2="-12" y1="-10"/>
+                                        <polygon antialias="true" y2="5.49" x4="8.19" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10.69" y3="4.51" x1="4.31" x2="6.81" y1="-4.51" y4="-5.49"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="8" x2="12" y1="-10"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="10" x2="10" y1="-20"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-30" x2="-30" y1="-20"/>
+                                        <line antialias="false" end2="none" y2="-10" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-28" x2="-32" y1="-10"/>
+                                        <line antialias="false" end2="none" y2="0" end1="none" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x1="-43" x2="-33" y1="0"/>
+                                        <line antialias="false" end2="none" y2="0" end1="none" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x1="-33" x2="-15" y1="0"/>
+                                        <line antialias="false" end2="none" y2="0" end1="none" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x1="-11" x2="5" y1="0"/>
+                                        <line antialias="false" end2="none" y2="0" end1="none" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x1="10" x2="25" y1="0"/>
+                                        <terminal orientation="n" x="-30" y="-20"/>
+                                        <terminal orientation="s" x="-30" y="20"/>
+                                        <terminal orientation="s" x="10" y="20"/>
+                                        <terminal orientation="n" x="10" y="-20"/>
+                                        <terminal orientation="n" x="-10" y="-20"/>
+                                        <terminal orientation="s" x="-10" y="20"/>
+                                        <terminal orientation="s" x="30" y="20"/>
+                                        <terminal orientation="n" x="30" y="-20"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="114_connections">
+                        <names>
+                            <name lang="fr">Connections</name>
+                            <name lang="nl">Verbindingen</name>
+                            <name lang="en">Connections</name>
+                            <name lang="it">Collegamenti</name>
+                            <name lang="de">Verbindungen</name>
+                            <name lang="cs">Spojení</name>
+                            <name lang="pl">Połączenia</name>
+                            <name lang="ru">Соединения</name>
+                            <name lang="el">Ενώσεις</name>
+                            <name lang="es">Conexiones</name>
+                        </names>
+                        <element name="thruright.elmt">
+                            <definition hotspot_x="19" hotspot_y="5" orientation="dyyy" type="element" width="40" height="20" version="0.3">
+                                <names>
+                                    <name lang="ar">ربط يمين</name>
+                                    <name lang="ru">Слева направо</name>
+                                    <name lang="en">Thru right</name>
+                                    <name lang="it">Collegamento destro</name>
+                                    <name lang="fr">Liaison droite</name>
+                                    <name lang="pl">Połączenie 5</name>
+                                    <name lang="es">A la derecha</name>
+                                    <name lang="cs">Pravé spojení</name>
+                                </names>
+                                <informations/>
+                                <description>
+                                    <input size="1" x="5.5" tagg="label" y="4.55" text="_" rotate="true"/>
+                                    <line antialias="false" end2="none" y2="0" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="0" x2="-6" y1="0"/>
+                                    <line antialias="false" end2="none" y2="5" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="0" x2="0" y1="0"/>
+                                    <line antialias="false" end2="none" y2="6" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="6" x2="0" y1="0"/>
+                                    <terminal orientation="s" x="0" y="10"/>
+                                    <terminal orientation="w" x="-10" y="0"/>
+                                    <terminal orientation="e" x="10" y="0"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                    <category name="100_folio_referencing">
+                        <names>
+                            <name lang="fr">Reports de folio</name>
+                            <name lang="nl">Referenties</name>
+                            <name lang="en">Folio referencing</name>
+                            <name lang="it">Riferimenti</name>
+                            <name lang="cs">Výstupy</name>
+                            <name lang="de">Folienverweise</name>
+                            <name lang="ar">إحالات</name>
+                            <name lang="pl">Odsyłacze</name>
+                            <name lang="ru">Точки разрыва</name>
+                            <name lang="el">Αναφορές σελίδας</name>
+                            <name lang="es">Referencias</name>
+                        </names>
+                        <element name="02going_arrow.elmt">
+                            <definition hotspot_x="18" hotspot_y="15" orientation="dyyy" type="element" width="40" link_type="next_report" height="30" ic="true" version="0.3">
+                                <uuid uuid="{717352A1-F3C7-49C7-9A06-51620AB5CA00}"/>
+                                <names>
+                                    <name lang="ru">Следующая страница</name>
+                                    <name lang="ar">الصفحة التالية</name>
+                                    <name lang="de">Nächste Folie</name>
+                                    <name lang="el">Επόμενη σελίδα</name>
+                                    <name lang="en">Going arrow</name>
+                                    <name lang="it">Foglio successivo</name>
+                                    <name lang="fr">Folio suivant</name>
+                                    <name lang="pl">Wyjście adresowe</name>
+                                    <name lang="es">Folio siguiente</name>
+                                    <name lang="cs">Další list</name>
+                                    <name lang="nl">Referentie volgend</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <polygon antialias="true" y2="4" x4="-9" style="line-style:normal;line-weight:normal;filling:black;color:black" x3="2" y3="0" x1="-9" x2="-9" closed="false" y1="-4" y4="-4"/>
+                                    <line antialias="false" end2="none" y2="0" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-9" x2="-12" y1="0"/>
+                                    <input size="9" x="6" tagg="label" y="0" text="/" rotate="true"/>
+                                    <terminal name="" number="" orientation="w" nameHidden="0" x="-13" y="0"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                </category>
+                <category name="20_manufacturers_articles">
+                    <names>
+                        <name lang="fr">Articles constructeurs</name>
+                        <name lang="en">Manufacturers articles</name>
+                        <name lang="it">Marchi produttori</name>
+                        <name lang="de">Herstellerartikel</name>
+                        <name lang="pl">Urządzenia producentów</name>
+                        <name lang="ru">База изделий производителей</name>
+                        <name lang="da">Producent produkter</name>
+                        <name lang="el">Κατασκευαστές υλικού</name>
+                        <name lang="es">Articulos de fabricantes</name>
+                    </names>
+                    <category name="pilz">
+                        <names>
+                            <name lang="en">Pilz</name>
+                            <name lang="cs">Pilz</name>
+                        </names>
+                        <category name="09_safety_modules">
+                            <names>
+                                <name lang="fr">Blocs de securité</name>
+                                <name lang="nl">Veiligheid modules</name>
+                                <name lang="en">Safety modules</name>
+                                <name lang="it">Moduli di sicurezza</name>
+                                <name lang="de">Sicherheitsschaltgeräte</name>
+                                <name lang="cs">Jistící bloky</name>
+                                <name lang="ar">وحدات السلامة</name>
+                                <name lang="pl">Moduły bezpieczeństwa</name>
+                                <name lang="ru">Модуль безопасности</name>
+                                <name lang="es">Módulos de seguridad</name>
+                                <name lang="el">Μονάδες ασφαλείας</name>
+                            </names>
+                            <element name="pilz.elmt">
+                                <definition hotspot_y="39" hotspot_x="65" orientation="dyyy" type="element" width="410" link_type="simple" height="140" version="0.5">
+                                    <uuid uuid="{abc067c8-f3ec-44d6-a1ea-bc998d59b0bf}"/>
+                                    <names>
+                                        <name lang="ru">Модуль безопасности PILZ</name>
+                                        <name lang="nl">veiligheidsmodule PILZ</name>
+                                        <name lang="ar">مرحل محكوم ذاتيا  PILZ</name>
+                                        <name lang="en">Safety module PILZ</name>
+                                        <name lang="cs">Automaticky řízené relé PILZ</name>
+                                        <name lang="it">Relè di sicurezza PILZ</name>
+                                        <name lang="pl">Moduł bezpieczeństwa PILZ</name>
+                                        <name lang="de">Sicherheitsmodul PILZ</name>
+                                        <name lang="fr">Relais autocontrolé PILZ</name>
+                                        <name lang="es">Relevadores autocontrolados PILZ</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="400" x="-60" y="-30" height="120"/>
+                                        <polygon y2="30" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="275" y3="20" x1="280" x2="280" y1="41" closed="false"/>
+                                        <polygon y2="30" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="315" y3="20" x1="320" x2="320" y1="41" closed="false"/>
+                                        <polygon y2="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="315" y3="0" x1="320" x2="320" y1="21" closed="false"/>
+                                        <polygon y2="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="274" y3="0" x1="279" x2="279" y1="21" closed="false"/>
+                                        <polygon y2="49" antialias="true" x4="325" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="325" y3="40" x1="320" x2="320" y1="69" y4="40" closed="false"/>
+                                        <polygon y2="49" antialias="true" x4="285" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="285" y3="40" x1="280" x2="280" y1="69" y4="40" closed="false"/>
+                                        <polygon y2="10" antialias="true" x4="186" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="186" y3="0" x1="190" x2="190" y1="21" y4="0" closed="false"/>
+                                        <polygon y2="20" antialias="true" x4="97" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="101" y3="10" y5="0" x1="91" x2="101" y1="20" y4="0" closed="false" x5="97"/>
+                                        <polygon y2="20" antialias="true" x4="156" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="160" y3="10" y5="0" x1="150" x2="160" y1="20" y4="0" closed="false" x5="156"/>
+                                        <polygon y2="19" antialias="true" x4="146" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="150" y3="10" y5="0" x1="150" x2="150" y1="39" y4="0" closed="false" x5="146"/>
+                                        <polygon y2="19" antialias="true" x4="86" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="90" y3="10" y5="0" x1="90" x2="90" y1="39" y4="0" closed="false" x5="86"/>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="12" x="144" y="40" height="10"/>
+                                        <text size="4" x="198" y="26" text="RB"/>
+                                        <text size="4" x="163" y="6" text="RC"/>
+                                        <text size="4" x="104" y="6" text="RC"/>
+                                        <text size="4" x="76" y="5" text="RA"/>
+                                        <text size="4" x="136" y="5" text="RA"/>
+                                        <text size="4" x="194" y="5" text="RA"/>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="12" x="184" y="40" height="10"/>
+                                        <text size="4" x="187" y="47" text="RC"/>
+                                        <text size="4" x="147" y="47" text="RB"/>
+                                        <text size="4" x="87" y="47" text="RA"/>
+                                        <line end2="none" y2="51" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="219" x2="219" y1="56"/>
+                                        <line end2="none" y2="56" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="190" x2="190" y1="50"/>
+                                        <line end2="none" y2="56" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="150" x2="150" y1="50"/>
+                                        <line end2="none" y2="56" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="90" x2="90" y1="50"/>
+                                        <line end2="none" y2="39" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="218" x2="218" y1="34"/>
+                                        <line end2="none" y2="34" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="191" x2="218" y1="34"/>
+                                        <line end2="none" y2="56" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-50" x2="218" y1="56"/>
+                                        <line end2="none" y2="56" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-50" x2="-50" y1="70"/>
+                                        <line end2="none" y2="40" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="190" x2="190" y1="30"/>
+                                        <line end2="none" y2="-1" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="161" x2="161" y1="-6"/>
+                                        <line end2="none" y2="-6" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="151" x2="160" y1="-6"/>
+                                        <line end2="none" y2="-1" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="101" x2="101" y1="-6"/>
+                                        <line end2="none" y2="-6" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="91" x2="100" y1="-6"/>
+                                        <line end2="none" y2="50" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="210" x2="227" y1="50"/>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="16" x="210" y="40" height="5"/>
+                                        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="12" x="84" y="40" height="10"/>
+                                        <line end2="none" y2="21" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="190" x2="195" y1="21"/>
+                                        <line end2="none" y2="-3" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-50" x2="20" y1="-3"/>
+                                        <line end2="none" y2="20" antialias="true" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="190" x2="194" y1="30"/>
+                                        <line end2="none" y2="-3" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-50" x2="-50" y1="-10"/>
+                                        <line end2="none" y2="70" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="150" x2="150" y1="65"/>
+                                        <line end2="none" y2="65" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="20" x2="150" y1="65"/>
+                                        <line end2="none" y2="64" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="20" x2="20" y1="-10"/>
+                                        <line end2="none" y2="24" antialias="false" end1="none" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" length2="1.5" x1="278" x2="317" y1="24"/>
+                                        <line end2="none" y2="5" antialias="false" end1="none" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" length2="1.5" x1="278" x2="317" y1="5"/>
+                                        <line end2="none" y2="45" antialias="false" end1="none" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" length2="1.5" x1="283" x2="322" y1="45"/>
+                                        <line end2="none" y2="0" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="190.375" x2="190.375" y1="-10"/>
+                                        <line end2="none" y2="0" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="150.375" x2="150.375" y1="-10"/>
+                                        <line end2="none" y2="-1" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="90.375" x2="90.375" y1="-10"/>
+                                        <text size="4" x="328" y="49" text="RC"/>
+                                        <text size="4" x="265" y="48" text="RC"/>
+                                        <text size="4" x="327" y="7" text="RA"/>
+                                        <line end2="none" y2="41" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="320" x2="325" y1="41"/>
+                                        <text size="4" x="328" y="26" text="RB"/>
+                                        <line end2="none" y2="41" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="280" x2="285" y1="41"/>
+                                        <text size="8" x="202" y="84" text="X"/>
+                                        <text size="8" x="312" y="-16" text="S3"/>
+                                        <text size="8" x="312" y="84" text="S4"/>
+                                        <text size="8" x="272" y="-17" text="S1"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="240" x2="240" y1="-11"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="290" x2="290" y1="-11"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="270" x2="270" y1="-11"/>
+                                        <text size="8" x="143" y="-18" text="E2"/>
+                                        <text size="8" x="142" y="84" text="C"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="330" x2="330" y1="-11"/>
+                                        <line end2="none" y2="0" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="320.375" x2="320.375" y1="-10"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="330" x2="330" y1="70"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="310" x2="310" y1="-11"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="310" x2="310" y1="70"/>
+                                        <text size="8" x="13" y="-18" text="C"/>
+                                        <text size="8" x="82" y="-18" text="E1"/>
+                                        <line end2="none" y2="-11" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="80" x2="80" y1="-29"/>
+                                        <line end2="none" y2="-11" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="100" x2="100" y1="-29"/>
+                                        <line end2="none" y2="-11" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="30" x2="30" y1="-29"/>
+                                        <line end2="none" y2="-11" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="10" x2="10" y1="-29"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="220" x2="220" y1="-11"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="140" x2="140" y1="-11"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="160" x2="160" y1="-11"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="220" x2="220" y1="70"/>
+                                        <line end2="none" y2="90" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="200" x2="200" y1="70"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="160" x2="160" y1="71"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="140" x2="140" y1="70"/>
+                                        <text size="8" x="273" y="83" text="S2"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="290" x2="290" y1="70"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="270" x2="270" y1="70"/>
+                                        <text size="8" x="-57" y="82.6667" text="A2"/>
+                                        <text size="8" x="-57" y="-18" text="24"/>
+                                        <line end2="none" y2="89" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-40" x2="-40" y1="70"/>
+                                        <line end2="none" y2="-29" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-40" x2="-40" y1="-11"/>
+                                        <text size="4" x="264" y="6" text="RA"/>
+                                        <text size="4" x="265" y="25" text="RB"/>
+                                        <line end2="none" y2="-10.5" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-59.0625" x2="340" y1="-10.5"/>
+                                        <line end2="none" y2="70" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-59" x2="340" y1="70"/>
+                                        <line end2="none" y2="0" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="280.375" x2="280.375" y1="-10"/>
+                                        <input size="9" x="350" tagg="label" y="-20" text="_" rotate="true"/>
+                                        <terminal orientation="s" x="210" y="94"/>
+                                        <terminal orientation="n" x="280" y="-34"/>
+                                        <terminal orientation="s" x="280" y="94.3333"/>
+                                        <terminal orientation="n" x="320" y="-34"/>
+                                        <terminal orientation="s" x="320" y="95"/>
+                                        <terminal orientation="n" x="-50" y="-34"/>
+                                        <terminal orientation="s" x="-50" y="94"/>
+                                        <terminal orientation="s" x="150" y="94"/>
+                                        <terminal orientation="n" x="150" y="-34"/>
+                                        <terminal orientation="n" x="230" y="-34"/>
+                                        <terminal orientation="n" x="20" y="-34"/>
+                                        <terminal orientation="n" x="90" y="-34"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+            </category>
+        </category>
+    </collection>
+</project>
